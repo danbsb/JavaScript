@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        body {
+        background-color: #f2f2f2;
+        }
+        h1 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 40px;
+        }
+        #lista {
+        margin: 10px;
+        padding: 10px;
+        }
+        #lista li {
+        list-style-type: disc;
+        font-size: 20px;
+        margin: 5px auto;
+        max-width: 550px;
+        width: 80%;
+        }
+        #input {
+        display: block;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        width: 80%;
+        max-width: 600px;
+        font-size: 16px;
+        text-align: center;
+        }
+        #input:focus {
+        outline: none;
+        box-shadow: 0 0 3px #66afe9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho da lista -->
+    <h1>Lista Tarefas</h1>
+    <!-- Lista que terá itens acrescentados pelo Javascript -->
+    <ol id="lista">
+
+    </ol>
+    <!-- Input que receberá os itens da lista -->
+    <input type="text" placeholder="Digite a Tarefa e aperte ENTER" id="input">
+    <!-- Endereçamento do Javascript -->
+    <script>
+
+        //Seleciona a query de input
+        let input = document.querySelector("#input")
+        //Seleciona a query de lista
+        let lista = document.querySelector("#lista")
+
+
+        //Adiciona um escutador aos eventos do INPUT
+        //Escuta o evento "keyup" e direciona para a função apertou()
+        //Se o evento de teclado "keyup" for acionado
+        let enter = input.addEventListener("keyup", soltou)
+
+        //Como precisa de uma tecla, tem que definir um parâmetro na função
+        //A pessoa vai digitar o valor do input e depois vai apertar enter
+        function soltou (t) {
+            // pega o parâmetro e analisa com a .key pra saber se é um enter
+            if (t.key == 'Enter') {
+            //Sendo um enter ele vai criar um item <li>
+            let tarefas = document.createElement('li')
+            //vai pegar o valor escrito antes do enter adicionar ao item
+            //pega o value de input e adiciona ao tarefas pelo innerHTML
+            tarefas.innerHTML = input.value
+            //pega o item  com o value e faz um append na lista
+            lista.append(tarefas)
+            //depois de fazer o append ele vai zerar o que tá escrito no input
+            input.value = ""
+            }
+        }
+        
+    </script>
+</body>
+</html>
