@@ -1,0 +1,57 @@
+body {
+background-color: #f2f2f2;
+}
+div {
+width: 80%;
+height: 80%;
+padding: 20px;
+margin: 30px auto;
+padding-left: 50px;
+padding-right: 50px;
+background-color: #d9e2e9;
+
+}
+h1 {
+font-size: 32px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.somar {
+display: block;
+margin: 20px auto;
+padding: 10px;
+border-radius: 5px;
+border: none;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+width: 80%;
+max-width: 400px;
+font-size: 16px;
+text-align: center;
+}
+.somar:focus {
+outline: none;
+box-shadow: 0 0 3px #66afe9;
+}
+#botao {
+display: block;
+font-size: 15px;
+margin: 10px auto;
+margin-top: 50px;
+height: 25px;
+width: 200px;
+margin-bottom: 30px;
+}
+p {
+margin: 10px;
+margin-left: 10%;
+margin-right: 10%;
+padding: 10px;
+font-size: 20px;
+margin: 5px;
+text-align: center;
+}
+hr {
+max-height: 400px;
+max-height: 200px;
+}
