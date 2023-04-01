@@ -30,3 +30,10 @@ height: 25px;
 width: 200px;
 align-content: center;
 }
+p {
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+margin: 5px;
+text-align: center;
+}
