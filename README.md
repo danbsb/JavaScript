@@ -1,1 +1,1 @@
-# Javascript
+# Neste diretório você encontra vários exercícios e projetos em JavaScript, e algum deles podem estar incompleto!
