@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualização</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="tela">
+        <div id="imagens">
+            <div>
+                <img id="banner" src="assets/img/mutua.png" alt="banner">
+            </div>
+        </div>
+        <div id="display">
+            <div id="atual">
+                <div id="titulo">SENHA</div>
+                <div id="numero">--</div>
+            </div>
+            <div id="ultimas">
+                <div id="titulo">ÚLTIMAS SENHAS</div>
+                <div id="chamada">
+                    <ul id="itens">
+                        <li id="li1">--</li>
+                        <li id="li2">--</li>
+                        <li id="li3">--</li>
+                        <li id="li4">--</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tela">
+        <div id="cadastro">
+            <h1 class="texto">Sua senha é:</h1>
+            <p id="textoSenha"></p>
+            <button class="botao" id="botaoGerar">Gerar Senha</button>
+            <p class="senhasGeradas"></p>
+        </div>
+
+        <div id="chamarPessoa">
+            <h1 class="texto">Proxima Senha é:</h1>
+            <p id="proximaSenha"></p>
+            <button class="botao" id="botaoChamar">Chamar Senha</button>
+            <p class="senhasGeradas2"></p>
+        </div>
+    </div>
+    <script src="assets/js/script.js">
+    </script>
+</body>
+</html>
