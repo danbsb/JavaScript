@@ -2,7 +2,7 @@ body {
     background-color: #f2f2f2;
 }
 #corpo {
-    background-color: rgb(178, 228, 228);
+    background-color: rgb(183, 248, 205);
     height: 600px;
     width: 400px;
     display: flex;
@@ -45,19 +45,6 @@ body {
     border-color: rgb(234, 235, 240);
     border-radius: 4px;
 }
-/* 
-.botao {
-    height: 45px;
-    width: 70px;
-    margin: 2px;
-    text-align: center;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    font-size: 17px;
-    background-color: rgba(128, 128, 128, 0.164);
-    border-color: rgb(237, 234, 240);
-    border-radius: 4px;
-} */
 .primeiro {
     margin-left: 8px;
 }
@@ -83,7 +70,7 @@ body {
     font-size: 17px;
     border-color: rgb(234, 235, 240);
     border-radius: 4px;
-    background-color: rgb(216, 184, 247);
+    background-color: rgb(227, 207, 247);
 }
 .simbol:hover{
     background-color: rgb(190, 139, 241);
@@ -96,9 +83,9 @@ body {
     margin-top: 6px;
     margin-bottom: 6px;
     font-size: 17px;
-    background-color: rgb(247, 191, 184);
+    background-color: rgb(173, 208, 247);
     border-radius: 5px;
 }
 .igual:hover {
-    background-color: rgb(240, 156, 145);
+    background-color: rgb(121, 180, 248);
 }
