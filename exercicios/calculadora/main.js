@@ -80,10 +80,10 @@ botaoIgual.addEventListener("click", () => {
                 let res4 = n1*n2
                 valorVisor.innerHTML = res4
             }
-            console.log(`${contador}`)
+            // console.log(`${contador}`)
             contador++
-            console.log(`${contador}`)
-            console.log(`${valorPrincipal}${valorSimbolo}${valorSecundario}`)
+            // console.log(`${contador}`)
+            // console.log(`${valorPrincipal}${valorSimbolo}${valorSecundario}`)
         } else if(contador > 0) {
             valorVisor.innerHTML = 0
             numVal = []
