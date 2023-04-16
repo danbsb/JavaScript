@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.corpo {
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+}
+.divBotao {
+    text-align: center;
+    margin: 20px;
+}
+.botao {
+    margin: 3px;
+    margin-bottom: 6px;
+    width: 60px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.botao:hover {
+    color: rgb(179, 212, 255);
+    border:  2px solid rgb(179, 212, 255);
+}
+.botao:active {
+    color: rgb(255, 231, 14);
+    border:  2px solid rgb(255, 231, 14);
+}
+#nome {
+   padding-top: 10px;
+   text-align: center;
+}
+#tocar {
+    margin: 10px;
+    width: 210px;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 5px;
+}
+#tocar:hover {
+    color: rgb(179, 212, 255);
+    border:  2px solid rgb(179, 212, 255);
+}
+#txt {
+    height: 20px;
+    width: 198px;
+    font-size: 15px;
+    padding: 5px;
+}
+/* um togle para quando clicar no botão do teclado ele alterar a cor do botão */
+.botao-toggle {
+    color: rgb(255, 231, 14);
+    border:  2px solid rgb(255, 231, 14);
+}
